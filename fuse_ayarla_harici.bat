@@ -1,0 +1,1 @@
+bin\avrdude -C etc\avrdude.conf -P %1 -b 19200 -c arduino -p m32 -U lfuse:w:0xff:m -U hfuse:w:0x99:m
