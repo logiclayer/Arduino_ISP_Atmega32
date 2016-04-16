@@ -28,3 +28,18 @@ mega32-16.bootloader.low_fuses=0xEF
 mega32-16.bootloader.high_fuses=0x99
 #mega32-16.bootloader.extended_fuses=0xFD
 mega32-16.upload.tool=avrdude
+
+##############################################################
+
+mega32-4.name=ATmega32-External 4mhz
+mega32-4.build.mcu=atmega32
+mega32-4.build.f_cpu=4000000L
+mega32-4.build.core=arduino:arduino
+mega32-4.build.variant=mega32
+
+mega32-4.upload.maximum_size=32000
+
+mega32-4.bootloader.low_fuses=0xEF
+mega32-4.bootloader.high_fuses=0x99
+#mega32-4.bootloader.extended_fuses=0xFD
+mega32-4.upload.tool=avrdude
