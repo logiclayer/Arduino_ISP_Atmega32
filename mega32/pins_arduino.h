@@ -27,14 +27,14 @@
                         ATMEL ATmega32
 					   
                           +---\\---+
- 	   (XCK/T0) D0 PB0	01|        |40  PA0 AI7 D31 (ADC0)
- 	       (T1) D1 PB1	02|        |39  PA1 AI6 D30 (ADC1)
- 	(INT2/AIN0) D2 PB2	03|        |38  PA2 AI5 D29 (ADC2)
- 	 (OC0/AIN1) D3 PB3	04|        |37  PA3 AI4 D28 (ADC3)
-	       (SS) D4 PB4	05|        |36  PA4 AI3 D27 (ADC4)
-	     (MOSI) D5 PB5	06|        |35  PA5 AI2 D26 (ADC5)
-	     (MISO) D6 PB6	07|        |34  PA6 AI1 D25 (ADC6)
-	      (SCK) D7 PB7	08|        |33  PA7 AI0 D24 (ADC7)
+   (XCK/T0) D0 PB0	01|        |40  PA0 AI7 D31 (ADC0)
+       (T1) D1 PB1	02|        |39  PA1 AI6 D30 (ADC1)
+(INT2/AIN0) D2 PB2	03|        |38  PA2 AI5 D29 (ADC2)
+ (OC0/AIN1) D3 PB3	04|        |37  PA3 AI4 D28 (ADC3)
+       (SS) D4 PB4	05|        |36  PA4 AI3 D27 (ADC4)
+     (MOSI) D5 PB5	06|        |35  PA5 AI2 D26 (ADC5)
+     (MISO) D6 PB6	07|        |34  PA6 AI1 D25 (ADC6)
+      (SCK) D7 PB7	08|        |33  PA7 AI0 D24 (ADC7)
                  RESET	09|        |32  AREF
                    VCC	10|        |31  GND
                    GND	11|        |30  AVCC
@@ -50,8 +50,8 @@
                           +--------+
 */
 
-const static uint8_t SDA = 8;
-const static uint8_t SCL = 9;
+const static uint8_t SDA = 23;
+const static uint8_t SCL = 22;
 
 const static uint8_t SS   = 4;
 const static uint8_t MOSI = 5;
