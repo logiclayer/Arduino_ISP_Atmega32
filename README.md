@@ -2,6 +2,7 @@
 Arduino'yu ISP'ye çevirerek Atmega32 mikrodenetleyicisinin programlanmasını anlatıyorum.
 Uygulanacak adımlar;
 
+Öncelikle Arduino IDE programı açıksa tamamen kapatın. Sonra sırası ile;
 1. Arduino UNO’muzun bütün pinlerini boş hale getirip sadece USB ile bilgisayar bağlantısının olmasını sağlayın.
 2. Arduino IDE’sinin bulunduğu klasörü bulup hardware\arduino\avr klasörüne geçip, (örneğin : C:\Program Files\Arduino\hardware\arduino\avr) boards.txt dosyasını bir text editör ile açıp en sonuna size linkini vermiş olduğum boards_eklenecekler.txt içindeki satırları ekleyin.
 3. Arduino IDE’sinin bulunduğu klasörü bulup hardware\arduino\avr\variants klasörünün içine size linkini vermiş olduğum mega32 klasörünü kopyalayın.
